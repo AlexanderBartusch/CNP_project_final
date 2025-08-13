@@ -1,0 +1,50 @@
+
+# required python modules:
+
+pandas
+numpy
+matplotlib.pyplot
+glob
+plotnine
+os
+geopandas as gpd
+geodatasets
+shapely
+from shapely.geometry import Point
+glob
+tqdm
+time
+pickle
+multiprocessing
+seaborn
+scipy
+openpyxl
+scikit-learn
+lightgbm
+shap
+ast
+pyartemis
+
+
+required R packages:
+
+exactextractr
+terra
+sf
+tidyverse
+ggplot2
+ggpubr
+ggtern
+dplyr
+lubridate
+readxl
+rnaturalearth
+patchwork
+latex2exp
+grid
+purrr
+
+
+
+
+
