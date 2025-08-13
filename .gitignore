@@ -1,0 +1,10 @@
+**/.ipynb_checkpoints/
+
+figures/*
+input_data/*
+output_data/*
+
+
+!figures/.gitkeep
+!input_data/.gitkeep
+!output_data/.gitkeep
