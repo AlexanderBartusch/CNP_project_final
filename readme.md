@@ -1,24 +1,24 @@
-To reproduce the results run the given Python and R scripts in the given order: 
+**To reproduce the results run the given Python and R scripts in the given order:**
 
 
-REQUIRED INPUT DATA:
+# Required input data:
 
-- 7 water quality datasets
-- 7 files containing the corresponding station IDs with coordinates
-- HYDROBASINS: layer: BasinATLAS_v10_lev12
-- HYDRORIVERS: 
-- TWI: TWI_global.tif fie calculated in QGIS
+* 7 water quality datasets
+* 7 files containing the corresponding station IDs with coordinates
+* HYDROBASINS: layer: BasinATLAS_v10_lev12
+* HYDRORIVERS: 
+* TWI: TWI_global.tif fie calculated in QGIS
 
 
 
-Data preperation:
+# Data preperation:
 
-A.) python/STEP_A_outlier_remove_raw_data:
+## A.) python/STEP_A_outlier_remove_raw_data:
 
 1.) p_01_detection_and_removal_outlier_raw_data.ipynb
 2.) p_02_data_analysis_after_outlier_removal.ipynb
 
-B.) python/STEP_B_merge_datasets:
+## B.) python/STEP_B_merge_datasets:
 
 3.) p_03_mergeStationData.ipynb
 4.) p_04_merge_outlier_removed_RawData.ipynb
@@ -30,7 +30,7 @@ B.) python/STEP_B_merge_datasets:
 10.) p_10_filter_pot_duplicated_stations_add_infos.ipynb
 11.) p_11_agg_0km_dist_stations_and_wq_data.ipynb
 
-C.) python/STEP_C_aggregate_data_by_catchments:
+## C.) python/STEP_C_aggregate_data_by_catchments:
 
 12.) p_12_generate_table_wq_data_subbasin.ipynb
 13.) p_13_filter_wq_data_HYBAS_CNP_available.ipynb
@@ -45,11 +45,11 @@ please also run the R script r_01_extract_TWI90_of_each_catchment_DOC_DIN_SRP.R 
 19.) p_19_base_statistics_nutrient_data.ipynb
 
 
-Machine learning models and analysis of the results:
+# Machine learning models and analysis of the results:
 
-D.) python/STEP_D_ML_analysis:
+## D.) python/STEP_D_ML_analysis:
 
-1_hyperparameter_tuning:
+### 1_hyperparameter_tuning:
 
 20.) p_20_DIN_boxcox_redfield_randomizedsearch.ipynb
 21.) p_21_DINabs_boxcox_redfield_randomizedsearch.ipynb
@@ -60,7 +60,7 @@ D.) python/STEP_D_ML_analysis:
 26.) p_26_rerun_optimized_models.ipynb
 
 
-2_feature_analysis:
+### 2_feature_analysis:
 
 27.) p_27_feature_importance_analysis.ipynb
 28.) p_28_relative_perm_importance_rescaled_100percent.ipynb
@@ -71,7 +71,7 @@ D.) python/STEP_D_ML_analysis:
 33.) p_33_model_predictions_optimized_models.ipynb
 
 
-To reproduce the ternary plots from the manuscript run the following R scripts:
+# To reproduce the ternary plots from the manuscript run the following R scripts:
 
 34.) r_02_ternary_plots_SRP_results_paper_redfield.R
 35.) r_03_ternary_plots_most_important_features.R
