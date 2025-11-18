@@ -346,5 +346,12 @@ ggsave(plot_combined,
        height = 4)
 
 
+ggsave(plot_combined,
+       device = NULL,
+       filename = 'tern_rfr_norm_OC-DIN_SRP_varying_rOC_median_confidence_lines.png',
+       path = out_folder,
+       width = 12,
+       height = 4)
+
 
 

@@ -1,4 +1,9 @@
-**To reproduce the results run the given Python and R scripts in the given order:**
+
+# Content:
+
+This repository contains Python and R code scripts to reproduce the results of the manuscript titled "Human pressures intensify stoichiometrc nitrogen excess in flowing waters". 
+
+
 
 
 # Required input data:
@@ -7,9 +12,16 @@
 * 7 files containing the corresponding station IDs with coordinates
 * HYDROBASINS: layer: BasinATLAS_v10_lev12
 * HYDRORIVERS: HydroRIVERS_v10
-* TWI: TWI_global.tif fie calculated in QGIS
+* TWI: TWI_global.tif file calculated in QGIS
+
+All raw data required for this project is permanently archived on Zenodo: [DOC and link]. The Zenodo repository includes:
+
+* raw data (complete and unmodified)
+* data description and all information regarding the original data sources and download procedures
+* the preprocessed dataset used in the analyses presented here
 
 
+**To reproduce the results run the given Python and R scripts in the given order:**
 
 # Data preperation:
 
@@ -79,6 +91,61 @@ please also run the R script r_01_extract_TWI90_of_each_catchment_DOC_DIN_SRP.R 
 
 
 
+# Python version and modules
+
+Python version 3.9.12 was used in the data analyses.
+
+The Python code within this repository only uses the following Python modules:
+
+1. pandas
+2. numpy
+3. matplotlib.pyplot
+4. glob
+5. plotnine
+6. os
+7. geopandas as gpd
+8. geodatasets
+9. shapely
+10. from shapely.geometry import Point
+11. glob
+12. tqdm
+13. time
+14. pickle
+15. multiprocessing
+16. seaborn
+17. scipy
+18. openpyxl
+19. scikit-learn
+20. lightgbm
+21. shap
+22. ast
+23. pyartemis
 
 
 
+# R version and packages
+
+R version 4.4.2 was used in the data analyses.
+
+The R code within this repository only uses the following R libraries:
+
+1. exactextractr
+2. terra
+3. sf
+4. tidyverse
+5. ggplot2
+6. ggpubr
+7. ggtern
+8. dplyr
+9. lubridate
+10. readxl
+11. rnaturalearth
+12. patchwork
+13. latex2exp
+14. grid
+15. purrr
+
+
+# Disclaimers
+
+The authors do not take any responsibility for damage done to the user system by executing the code of this repository.
