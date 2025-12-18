@@ -1,7 +1,7 @@
 
 # Content:
 
-This repository contains Python and R code scripts to reproduce the results of the manuscript titled "Human pressures intensify stoichiometrc nitrogen excess in flowing waters". 
+This repository contains Python and R code scripts to reproduce the results of the manuscript titled "Human pressures intensify stoichiometrc nitrogen excess in streams and rivers". 
 
 
 
