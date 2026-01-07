@@ -14,7 +14,7 @@ This repository contains Python and R code scripts to reproduce the results of t
 * HYDRORIVERS: HydroRIVERS_v10
 * TWI: TWI_global.tif file calculated in QGIS
 
-All raw data required for this project is permanently archived on [Zenodo](https://zenodo.org/records/17976389). The Zenodo repository includes:
+All raw data required for this project is permanently archived on [Zenodo](https://zenodo.org/records/17978253). The Zenodo repository includes:
 
 * raw data (complete and unmodified)
 * data description and all information regarding the original data sources and download procedures
